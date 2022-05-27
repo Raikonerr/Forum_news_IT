@@ -8,7 +8,7 @@
         <link rel="shortcut icon" type="image/png" sizes="16x16" rel="icon" href=".../icons8-forum-16.png">
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
-    <body class="bg-gray-200">
+    <body class="bg-gray-200 w-screen">
         <!-- This example requires Tailwind CSS v2.0+ -->
 
         <section class="relative py-2 bg-gray-900">

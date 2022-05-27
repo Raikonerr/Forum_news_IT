@@ -4,7 +4,7 @@
 
 <section class="relative py-0 bg-white lg:py-20">
     <div class="flex flex-col items-center justify-between px-10 mx-auto max-w-7xl xl:px-5 lg:flex-row">
-        <form action="{{ route('login') }}" method="post" class="flex flex-col items-center w-full px-10 pt-5 pb-20 lg:pt-20 lg:flex-row">
+        <form action="{{ route('login') }}" method="post" class="flex flex-col items-center justify-center w-full px-10 pt-5 pb-20 lg:pt-20 lg:flex-row">
             @csrf
             <div class="relative  z-10 w-full max-w-6xl mt-20 lg:mt-0 lg:w-5/12">
                 <div class="relative z-10 flex flex-col items-center justify-center p-10 bg-white shadow-2xl rounded-xl">
