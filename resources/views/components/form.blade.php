@@ -3,7 +3,7 @@
     <form action="{{$action}}" method="post" class="w-full flex flex-col justify-center items-center my-4">
         @csrf
           <div class=" bg-white rounded-md px-6 py-10 w-8/12 mx-auto">
-            <h1 class="text-center text-2xl font-bold text-gray-500 mb-10">ADD POST</h1>
+            <h1 class="text-center text-2xl font-bold text-gray-800 mb-10">ADD POST</h1>
             <div class="space-y-4">
               <div>
                 <label for="title" class="text-lx font-serif">Categories:</label>
@@ -21,14 +21,14 @@
             </div>
             <div>
                 <label for="description" class="block mb-2 text-lg font-serif">Description:</label>
-                <textarea id="description" placeholder="Describe everything about this post here" name="body" class="w-full font-serif  p-4 text-gray-600 bg-indigo-50 outline-none rounded-md  description sec p-3 rounded-lg h-50 border"></textarea>
+                <textarea id="description" placeholder="Describe everything about this post here" name="body" class="w-full font-serif  p-4 text-gray-600 bg-indigo-50 outline-none rounded-md    p-3 rounded-lg h-50 border"></textarea>
                 @error('body')
                     <div class="text-red-500 mt-2 text-sm">
                         {{ $message }}
                     </div>
                 @enderror
             </div>
-              <button type="submit" class="px-6 py-2 mx-auto block rounded-md text-lg font-semibold text-indigo-100 bg-indigo-600  ">ADD POST</button>
+              <button type="submit" class="px-6 py-2 mx-auto block rounded-md text-lg font-semibold text-indigo-100 bg-teal-600  ">ADD POST</button>
             </div>
           </div>
     </form>

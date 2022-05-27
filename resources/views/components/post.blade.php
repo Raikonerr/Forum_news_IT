@@ -68,7 +68,7 @@
                             {{ $message }}
                         </div>
                     @enderror
-                    <button type="submit" class="rounded-full bg-indigo-500 ml-3 px-4 py-2 text-white mt-4 w-auto" name="post_id" value="{{$post->id}}">
+                    <button type="submit" class="rounded-full bg-teal-600 ml-3 px-4 py-2 text-white mt-4 w-auto" name="post_id" value="{{$post->id}}">
                         Comment
                     </button>
                 </form>
@@ -79,7 +79,7 @@
                              <div class="text-xs my-3 font-bold">
                                 <span>{{ $item->user->name }}</span>
                             </div>
-                            <div class="bg-gray-100 rounded-full px-10 py-3 mb-2">
+                            <div class="bg-gray-100 rounded-xl px-10 py-3 mb-2">
                                 <span class="text-sm w-auto">{{ $item->body }}</span>
                             </div>
                             <span class="flex justify-start items-center">
