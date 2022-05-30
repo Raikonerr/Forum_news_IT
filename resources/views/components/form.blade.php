@@ -7,7 +7,7 @@
             <div class="space-y-4">
               <div>
                 <label for="title" class="text-lx font-serif">Categories:</label>
-                <select name="category_id" class="ml-2 outline-none py-1 px-2 text-md border-2 rounded-md">
+                <select name="category_id" class="block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0  focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none">
                     <option value=""><span class="text-blue-800">Choose category ...</span> </option>
                         @foreach ($categories as $category)
                             <x-category :category="$category" />

@@ -9,7 +9,7 @@
         @csrf
         @method('PUT')
         <div class="flex flex-col w-8/12 bg-white p-6 rounded-lg my-2">
-            <select name="category_id" class="title bg-gray-100 border rounded-lg border-gray-300 p-2 mb-3 outline-none">
+            <select name="category_id" class="block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0  focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none">
                 <option value="{{ $post->category->id }}">{{ $post->category->title }}</option>
                 @foreach ($categories as $category)
                     <x-category :category="$category" />
